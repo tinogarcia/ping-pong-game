@@ -1,0 +1,46 @@
+body {
+    background-color: #333;
+    display: grid;
+    place-content: center;
+    font-family: 'Press Start 2P';
+}
+canvas {
+    border: 5px solid white;
+    border-radius: 1%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.instructions {
+    color: white;
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+.instructions .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.instructions .player kbd {  
+    border: 1px solid #666666;  
+    border-radius: 4px;  
+    padding: 8px 10px;  
+    margin: 2px;  
+    color: white;  
+    text-decoration: none;
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+} 
+
+.instructions .player kbd.clicked {  
+    background-color: blue;
+    border: 1px solid white; 
+} 

@@ -5,6 +5,7 @@ Este proyecto es una implementación del clásico juego Ping Pong utilizando ún
 ## Índice
 
 - [Características](#características)
+- [Demo](#demo)
 - [Licencia](#licencia)
 
 ## Características
@@ -12,6 +13,9 @@ Este proyecto es una implementación del clásico juego Ping Pong utilizando ún
 - Juego de dos jugadores (humano vs humano).
 - Indicación visual de la puntuación y el tiempo de cada ronda.
 - Reinicio del juego automático.
+
+## Demo
+[Demo](https://ping-pong-game-gules.vercel.app/)
 
 ## Licencia
 
